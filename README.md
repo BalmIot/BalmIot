@@ -18,9 +18,9 @@ BalmIot is a library to make it easier to you interact with from Arduino.
 ```c++
 #include <WiFi.h>//เรียกใช้งานไลบรารี่ WiFi
 #include <BalmIot.h>//เรียกใช้งานไลบรารี่ BALM IOT
-const char* ssid     = "Pakan_2.4Gz";//ชื่อ WiFi
-const char* password = "0931977665";//รหัส WiFi
-const char* keys = "$V3Ua3Bo2FLg6Mk_VzhjisdrsrjiTc";//ตัวแปรรหัสคีย์(ระบบจะส่งรหัสคีย์ให้ท่านทางอีเมล)
+const char* ssid     = "***";//ชื่อ WiFi
+const char* password = "***";//รหัส WiFi
+const char* keys = "***";//ตัวแปรรหัสคีย์(ระบบจะส่งรหัสคีย์ให้ท่านทางอีเมล)
 const char* ch = "1";//ตัวแปรเลขช่อง
 const char* text = "ทดสอบ";//ตัวแปรข้อความ
 
