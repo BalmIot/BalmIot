@@ -14,4 +14,4 @@ BalmIot	KEYWORD1
 
 BalmIot_get	KEYWORD2
 BalmIot_up	KEYWORD2
-
+BalmIot_time	KEYWORD2
