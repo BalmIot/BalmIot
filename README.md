@@ -81,22 +81,22 @@ void loop()//ทำงานแบบวนลูป
 {
   if ((WiFi.status() == WL_CONNECTED))//ถ้าเชื่อมต่อ WiFi อยู่
   {
-    //รับค่าเวลา
-    //String test = show.BalmIot_time();//จะได้ค่าเวลาล่าสุด เช่น 12:40
+    	//รับค่าเวลา
+    	//String test = show.BalmIot_time();//จะได้ค่าเวลาล่าสุด เช่น 12:40
 	
 	//รับค่าจากช่อง
-    //ใส่ค่ารหัสคีย์และเลขช่องเพื่อรับข้อมูลจากช่องนั้น
-    //การรับทำได้ 4 แบบคือ
-    //String test = show.BalmIot_get("keys","1");
-    String test = show.BalmIot_get(keys,ch);
+    	//ใส่ค่ารหัสคีย์และเลขช่องเพื่อรับข้อมูลจากช่องนั้น
+    	//การรับทำได้ 4 แบบคือ
+    	//String test = show.BalmIot_get("keys","1");
+    	String test = show.BalmIot_get(keys,ch);
 	//String test = show.BalmIot_get("keys",ch);
 	//String test = show.BalmIot_get(keys,"1");
     
-    //ส่งค่าไปที่ช่อง
-    //ใส่ค่ารหัสคีย์กับเลขช่องและข้อความส่งข้อมูลไปที่ช่องนั้น
-    //การส่งทำได้ 6 แบบคือ
-    //String test = show.BalmIot_up("keys","1","เทส");
-    //String test = show.BalmIot_up(keys,ch,text);
+    	//ส่งค่าไปที่ช่อง
+    	//ใส่ค่ารหัสคีย์กับเลขช่องและข้อความส่งข้อมูลไปที่ช่องนั้น
+    	//การส่งทำได้ 6 แบบคือ
+    	//String test = show.BalmIot_up("keys","1","เทส");
+    	//String test = show.BalmIot_up(keys,ch,text);
 	//String test = show.BalmIot_up("keys",ch,text);
 	//String test = show.BalmIot_up(keys,"1",text);
 	//String test = show.BalmIot_up(keys,ch,"เทส");
